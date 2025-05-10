@@ -1,4 +1,4 @@
-# EventsApp / # Events Listing Web App
+# EventsApp / Events Listing Web App
 
 Live Demo: [https://events-app-nu-gilt.vercel.app/](https://events-app-nu-gilt.vercel.app/)
 
