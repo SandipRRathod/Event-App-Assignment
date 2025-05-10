@@ -1,0 +1,49 @@
+/* Enhancing Navbar Styles */
+.navbar {
+    background-color: #343a40; /* Dark background */
+    border-radius: 0.5rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar:hover {
+    background-color: #495057; /* Darker shade on hover */
+  }
+  
+  .navbar .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  
+  .navbar .navbar-toggler {
+    border-color: #ffffff;
+  }
+  
+  .navbar .navbar-nav .nav-link {
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+  }
+  
+  /* Active Link Styling */
+  .navbar .navbar-nav .nav-link.active {
+    color: #f39c12; /* Highlight active link */
+    border-bottom: 2px solid #f39c12;
+  }
+  
+  /* Hover Effects for Links */
+  .navbar .navbar-nav .nav-link:hover {
+    color: #f39c12; /* Change color on hover */
+    border-bottom: 2px solid #f39c12; /* Underline effect */
+  }
+  
+  /* Responsive navbar adjustments */
+  @media (max-width: 991px) {
+    .navbar {
+      padding: 0.5rem;
+    }
+  
+    .navbar .navbar-nav .nav-link {
+      font-size: 1rem;
+    }
+  }
+  

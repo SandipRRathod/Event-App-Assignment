@@ -1,0 +1,22 @@
+.card img {
+    object-fit: cover;
+    height: 200px;
+  }
+  
+
+  .card-title {
+    min-height: 3rem;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  }
+  
+  .btn-outline-primary:hover {
+    background-color: #0d6efd;
+    color: white;
+    border-color: #0d6efd;
+  }
+  
